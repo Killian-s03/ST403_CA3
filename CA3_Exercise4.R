@@ -80,4 +80,11 @@ modified_optim<-optim(par=regression_coeff,
                       lower = lower_bound,
                       upper= upper_bound)
 modified_optim$par
+##3.4
 
+##1)
+#####Modified
+beta_hat_4<-mod$coefficients
+beta_hat_4
+sigma_hat_4<-mod_sum$sigma
+sigma_hat_4
